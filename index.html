@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Solutions & Chatbot Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-robot"></i>
+                <span>AI Solutions</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="gradient-text">AI-Powered</span> Solutions
+                </h1>
+                <p class="hero-subtitle">
+                    Building intelligent chatbots, AI agents, and data pipelines with cutting-edge technologies
+                </p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="#contact" class="btn btn-secondary">Get Started</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="element element-1"><i class="fas fa-brain"></i></div>
+                    <div class="element element-2"><i class="fas fa-comments"></i></div>
+                    <div class="element element-3"><i class="fas fa-chart-line"></i></div>
+                    <div class="element element-4"><i class="fas fa-microphone"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up">
+                    <div class="service-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Universal Chatbots</h3>
+                    <p>Custom chatbot solutions built with LangGraph and AGNO frameworks for seamless user interactions</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>AI Agents & Pipelines</h3>
+                    <p>Complete AI agent development with intelligent pipeline architecture for complex workflows</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Data Analysis</h3>
+                    <p>Comprehensive data pipeline development with numerical series analysis and database optimization</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <h3>STT & TTS Integration</h3>
+                    <p>Speech-to-Text and Text-to-Speech technology implementation for voice-enabled applications</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>MCP Development</h3>
+                    <p>Model Context Protocol (MCP) implementation for enhanced AI model communication and control</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Analytics & Insights</h3>
+                    <p>Advanced analytics solutions with real-time data processing and actionable business insights</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>E-commerce Chatbot</h3>
+                        <p>Intelligent shopping assistant with product recommendations and order processing</p>
+                        <div class="tech-stack">
+                            <span>LangGraph</span>
+                            <span>Python</span>
+                            <span>OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Financial Analytics Platform</h3>
+                        <p>Real-time data processing pipeline with predictive analytics and reporting</p>
+                        <div class="tech-stack">
+                            <span>AGNO</span>
+                            <span>Pandas</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <i class="fas fa-microphone"></i>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3>Voice Assistant</h3>
+                        <p>Multi-language voice interface with STT/TTS integration and natural language processing</p>
+                        <div class="tech-stack">
+                            <span>Whisper</span>
+                            <span>MCP</span>
+                            <span>FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@aisolutions.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-github"></i>
+                        <div>
+                            <h3>GitHub</h3>
+                            <p>github.com/yourusername</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/yourprofile</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AI Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
