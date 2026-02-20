@@ -816,6 +816,15 @@ body {
     color: #cccccc;
 }
 
+.contact-item a {
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    color: #ffffff;
+}
+
 .contact-form {
     background: #1a1a1a;
     padding: 2rem;
